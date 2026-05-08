@@ -1,5 +1,3 @@
-README for Python FastAPI Version
-
 # Student Registration API - FastAPI
 
 A simple REST API for student registration built with Python, FastAPI, SQLite, SQLAlchemy, and Pydantic.
@@ -36,17 +34,18 @@ student_registration_api/
 
 Installation
 pip install -r requirements.txt
+
 Run the Server
 uvicorn main:app --reload
 
 Server runs on:
-
 http://127.0.0.1:8000
+
 API Documentation
 
 Open Swagger UI:
-
 http://127.0.0.1:8000/docs
+
 Endpoints
 Register Student
 POST /students/register
