@@ -63,6 +63,7 @@ Get One Student
 GET /students/{student_id}
 Delete Student
 DELETE /students/{student_id}
+
 Error Handling
 400 - Duplicate email
 404 - Student not found
